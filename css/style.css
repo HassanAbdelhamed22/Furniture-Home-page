@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  position: relative;
+  background-color: #f1f2f7;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 80px;
+}
+
+.logo {
+  letter-spacing: 1.5px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  z-index: 1;
+  position: relative;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  padding-left: 420px;
+}
+
+i {
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+.icons i {
+  display: inline-block;
+
+  background: url("path/to/icon.png") no-repeat center center;
+}
+
+.icons i:first-child:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.icons i:last-child:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+.nav-links a:link {
+  color: #4f5054;
+  text-decoration: none;
+}
+.nav-links a:hover {
+  border-bottom: 2px solid #4f5054;
+}
+
+.body .big {
+  color: #141519;
+  font-size: 76px;
+  width: 500px;
+  font-weight: bold;
+  line-height: 1.1;
+  letter-spacing: -3.1px;
+}
+.body .small {
+  width: 550px;
+  font-size: 23px;
+  line-height: 1.1;
+  color: #4f5054;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+.bot button {
+  background-color: black;
+  color: white;
+  padding: 15px 35px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+}
+.bot button:hover {
+  background-color: #4f5054;
+  color: white;
+}
+.big-image {
+  position: absolute;
+  /* width: 100px; */
+  /* height: 100px; */
+  top: -20px;
+  /* font-size: 200px; */
+  right: 150px;
+}
+
+.big-image img {
+  width: 600px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  bottom: -80px; /* reduced from -80px */
+  position: relative;
+  padding-left: 0;
+  margin-left: -65px;
+  align-items: center;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background: white;
+  padding: 20px;
+  width: 250px;
+  height: 200px;
+  margin-left: -150px;
+}
+
+.box1 img {
+  max-width: 150px;
+  height: 150px;
+  top: -65px;
+  position: relative;
+}
+
+.text1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: -50px;
+  text-align: center;
+  color: #4f5054;
+}
+
+.sale1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  margin-top: 10px;
+  text-align: center;
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background: white;
+  padding: 20px;
+  width: 250px;
+  height: 200px;
+  margin-left: -150px;
+}
+
+.box2 img {
+  max-width: 150px;
+  height: 150px;
+  top: -65px;
+  position: relative;
+}
+
+.text2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: -50px;
+  text-align: center;
+  color: #4f5054;
+}
+
+.sale2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  margin-top: 10px;
+  text-align: center;
+}
+.box3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background: white;
+  padding: 20px;
+  width: 250px;
+  height: 200px;
+  margin-left: -150px;
+}
+
+.box3 img {
+  max-width: 150px;
+  height: 150px;
+  top: -65px;
+  position: relative;
+}
+
+.text3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: -50px;
+  text-align: center;
+  color: #4f5054;
+}
+
+.sale3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  margin-top: 10px;
+  text-align: center;
+}
+.p {
+  transform: rotate(-90deg);
+  font-size: 25px;
+  font-weight: bold;
+  /* add margin to the right to separate from the boxes */
+  position: relative; /* added */
+  margin-left: -85px;
+}
+.arrow {
+  text-align: center;
+  margin-right: 85px;
+  font-size: 50px !important;
+  transform: scale(2.5);
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.box1,
+.box2,
+.box3 {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.arrow:hover{
+  color: #4f5054;
+}
